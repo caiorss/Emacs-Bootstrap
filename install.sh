@@ -3,5 +3,7 @@
 # Emacs bootstrap Installation script.
 #
 #
-wget https://raw.githubusercontent.com/caiorss/Emacs-Bootstrap/master/bootstrap.sh
-wget https://raw.githubusercontent.com/caiorss/Emacs-Bootstrap/master/init.el
+curl -O https://raw.githubusercontent.com/caiorss/Emacs-Bootstrap/master/bootstrap.sh
+curl -O https://raw.githubusercontent.com/caiorss/Emacs-Bootstrap/master/init.el
+chmod +x bootstrap.sh
+./bootstrap.sh
