@@ -7,3 +7,4 @@ curl -O https://raw.githubusercontent.com/caiorss/Emacs-Bootstrap/master/bootstr
 curl -O https://raw.githubusercontent.com/caiorss/Emacs-Bootstrap/master/init.el
 chmod +x bootstrap.sh
 ./bootstrap.sh
+1
