@@ -4,8 +4,21 @@ Emacs bootstrap is a template and a wrapper to create multiple Emacs settings, i
 
 ## Usage:
 
-### Unix
+Once it is setup you can use the commands:
 
+Edit init.el file:
+
+```
+M-x open-init-file
+```
+
+Open the installation directory:
+
+```
+M-x open-root-dir
+```
+
+### Unix
 
 #### Automatic Installation
 

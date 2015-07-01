@@ -11,6 +11,6 @@ SCRIPT_PATH=$(readlink -f $0)
 # Directory of this script
 SCRIPT_DIR=$(dirname $SCRIPT_PATH)
 
-EMACS_INIT_FILE=$SCRIPT_DIR/init.el
+export EMACS_INIT_FILE=$SCRIPT_DIR/init.el
 
 emacs -q -l $EMACS_INIT_FILE $@

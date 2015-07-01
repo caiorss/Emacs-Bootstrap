@@ -16,6 +16,9 @@
 ;; Get path to this file and set it as the init file
 (setq user-init-file (concat (file-name-as-directory root-dir) "init.el") )
 
+
+(add-to-list 'load-path root-dir)
+
 (defun open-init-file ()
     (interactive)
     (find-file user-init-file)
@@ -34,6 +37,7 @@
     (load-file user-init-file)
 )    
 
+
 ;;;;;;; Package Repositories ;;;;;;;;;;;;;;
 
 (message user-init-file)
@@ -47,4 +51,12 @@
  ("marmalade" .  "http://marmalade-repo.org/packages/")
 ))
 
+;; (package-refresh-contents)
 (package-initialize)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Don't show startup screen
+;;
+;  (setq inhibit-startup-screen t)
